@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1e1c2a;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+header {
+    box-shadow: 0px 1px 10px #1e1c2aa1;
+    min-width: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    padding: 15px;
+    font-size: 1.5em;
+} /*FooD PeeK*/
+
+span {
+    color: #d63a25;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 15px;
+    margin-right: 5%;
+} 
+
+.links a {
+    text-decoration: none;
+    color: #1e1c2a;
+}
+
+.links a:hover {
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    color: #d63a25;
+}/*Links da navegação*/
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.corpo {
+    padding: 5%;
+}
+
+main h1 {
+    color: #d63a25;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3em;
+    max-width: 450px;
+}
+
+p {
+    max-width: 400px;
+}
+
+button {
+    margin-top: 10%;
+    padding: 15px;
+    margin-bottom: 5%;
+    background-color: #d63a25;
+    color: white;
+    border: none;
+    width: 40%;
+    border-radius: 10px;
+}
+
+button:hover {
+    transform: translateY(-20%);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:focus {
+    transition: 0.3s ease-in-out;
+    color: #d63a25;
+    background-color: white;
+    border: 1px solid #1e1c2a;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+img {
+    width: 35vw;
+}
