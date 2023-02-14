@@ -9,16 +9,18 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     color: #1e1c2a;
     height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+    max-height: 950px;
+    width: 100%;
 }
 
 header {
     box-shadow: 0px 1px 10px #1e1c2aa1;
-    min-width: 100vh;
 }
 
 nav {
@@ -63,7 +65,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
 }
 
 .corpo {
